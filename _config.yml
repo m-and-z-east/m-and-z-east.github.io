@@ -50,6 +50,14 @@ social:
   - title: github
     url: http://github.com/jekyll
 
+categories:
+  - url: #candles
+    title: "fa-solid fa-fire-burner"
+  - url: #shirts
+    title: "fa-solid fa-shirt"
+  - url: #clocks
+    title: "fa-solid fa-clock"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
