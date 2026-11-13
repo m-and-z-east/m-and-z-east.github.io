@@ -49,7 +49,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f186";
+    content: "<i class="fa-regular fa-moon"></i>";
     display: inline-block;
     position: relative;
     top: -.8em;
