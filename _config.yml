@@ -50,7 +50,7 @@ social:
   - title: github
     url: http://github.com/jekyll
 
-categories:
+sections:
   - title: candles
     url: "#candles"
     symbol: "fa-solid fa-fire-burner"
