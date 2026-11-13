@@ -51,12 +51,15 @@ social:
     url: http://github.com/jekyll
 
 categories:
-  - url: "#candles"
-    title: "fa-solid fa-fire-burner"
-  - url: "#shirts"
-    title: "fa-solid fa-shirt"
-  - url: "#clocks"
-    title: "fa-solid fa-clock"
+  - title: candles
+    url: "#candles"
+    symbol: "fa-solid fa-fire-burner"
+  - title: shirts
+    url: "#shirts"
+    symbol: "fa-solid fa-shirt"
+  - title: clocks
+    url: "#clocks"
+    symbol: "fa-solid fa-clock"
 
 # Build settings
 markdown: kramdown
