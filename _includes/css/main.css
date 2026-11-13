@@ -49,12 +49,12 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "<i class="fa-regular fa-moon"></i>";
+    content: "\f186";
     display: inline-block;
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 7 Free";
     font-size: 2em;
 }
 
