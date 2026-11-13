@@ -12,7 +12,7 @@
               {% for category in site.categories %}
               <li class="list-inline-item">
                 <a href="{{ category.url }}" class="btn-social btn-outline">
-                  <i class={{ category.title }}></i>
+                  <i class="{{ category.symbol }}"></i>
                 </a>
               </li>
               {% endfor %}
