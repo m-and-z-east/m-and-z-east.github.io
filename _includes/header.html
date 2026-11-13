@@ -9,10 +9,10 @@
           <hr class="star-light" />
           <div class="header-social text-center">
             <ul class="list-inline">
-              {% for category in site.categories %}
+              {% for item in site.sections %}
               <li class="list-inline-item">
-                <a href="{{ category.url }}" class="btn-social btn-outline">
-                  <i class="{{ category.symbol }}"></i>
+                <a href="{{ item.url }}" class="btn-social btn-outline" title="{{ item.title | capitalize }}">
+                  <i class="{{ item.symbol }} fa-fw"></i>
                 </a>
               </li>
               {% endfor %}
