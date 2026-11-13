@@ -9,10 +9,10 @@
           <hr class="star-light" />
           <div class="header-social text-center">
             <ul class="list-inline">
-              {% for network in site.social %}
+              {% for category in site.categories %}
               <li class="list-inline-item">
-                <a href="{{ network.url }}" class="btn-social btn-outline">
-                  <i class="fa-brands fa-fw fa-{{ network.title }}"></i>
+                <a href="{{ category.url }}" class="btn-social btn-outline">
+                  <i class={{ category.title }}></i>
                 </a>
               </li>
               {% endfor %}
